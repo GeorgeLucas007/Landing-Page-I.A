@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/styleChamadaEvento.css">
+    <link rel="stylesheet" href="/css/styleTopicosEvento.css">
+    <link rel="stylesheet" href="/css/styleInfoEvento.css">
+    <link rel="stylesheet" href="/css/styleParticipantes.css">
+    <link rel="stylesheet" href="/css/styleInscrever.css">
+    <link rel="stylesheet" href="/css/styleFooter.css">
+
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="css/smallscreen.css">
+    <link rel="stylesheet" media="(min-width: 500px) and (max-width: 1300px)" href="css/mediumscreen.css">
+    <title>Landing Page</title>
+</head>
+<body>
+
+    <header class="chamadaEvento">
+
+        <div class="chamada">
+            <h1>Inteligencia Artificial</h1>
+            <h3>UM EVENTO PARA REVOLUCIONAR</h3>
+            <h4>Data do Evento:</h4>
+            <h4>Sabado, 07 de Novembro, a partir das 07h</h4>
+        </div>
+
+        <div class="container-form">
+            <h1 class="h1-container-form">
+                Preencha o formulario para receber os detalhes do evento
+            </h1>
+            <form class="form" action="">
+                
+                <div id="input-field">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="input-nome" placeholder="Digite seu nome">
+                </div>
+
+                <div id="input-field">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="input-email" placeholder="Digite seu email">
+                </div>
+
+                <div id="input-field">
+                    <label for="celular">Celular</label>
+                    <input type="text" name="celular" id="input-celular" placeholder="Número de Whatsapp">
+                </div>
+
+                <div id="input-field">
+                    <label for="interesse">Principal Interesse</label>
+                    <select name="interesse" id="input-interesse">
+                        <option value disabled selected>Selecione</option>
+                        
+                        <option value="AlgoritmosBusca">Algoritmos de Busca</option>
+
+                        <option value="Deep Learning">Deep Learning</option>
+
+                        <option value="LinguagemNatural">Linguagem Natural</option>
+                        
+                        <option value="VisãoComputacional">Visão Computacional</option>
+                    </select>
+                </div>
+                
+                <button class="input-button" type="button">
+                    QUERO ME INSCREVER
+                </button>    
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <section class="topicos-event">
+            <div class="banner-aprender">
+                <p>O que voce vai aprender:</p>
+            </div>
+
+            <div class="topicos-aprender">
+
+                <div id="formatacao-div" class="classe-animation">
+                    <img id="imagens-cursos" src="/img/AlgBusca.jpg" alt="Busca em um Grafo">
+
+                    <div id="formatacao-texto">
+                        <h2>
+                            Algoritmos de Busca
+                        </h2>
+                        <p>
+                            Aprenda Algoritmos de Busca
+                        </p>
+                    </div>
+                </div>
+
+                <div id="formatacao-div" class="classe-animation">
+                    <img id="imagens-cursos" src="/img/Deep-Learning.jpg">
+                    
+                    <div id="formatacao-texto">
+                        <h2>
+                            Deep Learning
+                        </h2>
+                        <p>
+                            Aprenda Deep Learning
+                        </p>
+                    </div>
+                </div>
+
+                <div id="formatacao-div" class="classe-animation2">
+                    <img id="imagens-cursos" src="/img/nlp-cpp.jpg" alt="NLP">
+                    
+                    <div id="formatacao-texto">
+                        <h2>
+                            Processamento de Linguagem Natural
+                        </h2>
+                        <p>
+                            Aprenda Processamento de Linguagem Natural
+                        </p>
+                    </div>
+                </div>
+
+                <div id="formatacao-div" class="classe-animation2">
+                    <img id="imagens-cursos" src="/img/visaocomputacional.jpg" alt="Visão Computacional">
+                    
+                    <div id="formatacao-texto">
+                        <h2>
+                            Visão Computacional
+                        </h2>
+                        <p>
+                            Aprenda Visão Computacional
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="info-evento">
+            <div class="container-infoEvento">
+                <h1 class="h1-titulo">
+                    Evento 100% online e gratuito
+                </h1>
+
+                <p class="p-apresentacao">
+                    O evento será realizado no Google Meet por especialistas de cada área da I.A apresentada, onde teremos exemplos aplicados em nosso cotidiano.
+                </p>
+            </div>
+
+        </section>
+
+        
+        <section class="participantes">
+            <h1 class="participantes-h1">Conheca os Especialistas</h1>
+
+            <div class="conjunto-1">
+
+                <div class="especialista">
+                    <img id="imagens-especialistas" src="/img/sheldon1.jpg" alt="especialista1">
+    
+                    <div id="curriculo-especialistas">
+                        <h1>Dr. Sheldon Lee Cooper</h1><br>
+                        <p>
+                            Físico Teórico que concluiu seu segundo Phd com apenas 14 anos. Especializado em Deep Learning trabalha há mais de 15 anos com Redes Neurais para o governo dos EUA.  
+                        </p>
+                    </div>   
+                </div>
+
+                <div class="especialista">
+                    <img id="imagens-especialistas" src="/img/Albert-Einstein-2.jpg" alt="especialista2">
+    
+                    <div id="curriculo-especialistas">
+                        <h1>Albert Einstein</h1><br>
+                        <p>
+                            Físico Teórico que até seus 27 anos trabalhava em  um escritório de patentes, mas a partir de 1905 tudo mudaria. Especializado em Algoritmos de Busca trabalhou para o governo alemão e americano. 
+                        </p>
+                    </div>  
+                </div>
+
+            </div>
+
+            <div class="conjunto-2">
+                <div class="especialista">
+                    <img id="imagens-especialistas" src="img/leonardo_da_vinci_c.jpg" alt="especialista2">
+    
+                    <div id="curriculo-especialistas">
+                        <h1>Leonardo da Vinci</h1><br>
+                        <p>
+                            Possui vários trabalhos de relevância em diferentes áreas do conhecimento que contribuiu para o desenvolvimento da sociedade. Um de seus trabalhos é na área de Processamento de Linguagem Natural no qual é referência.  
+                        </p>
+                    </div>  
+                </div>
+    
+                <div class="especialista">
+                    <img id="imagens-especialistas" src="/img/sherlock-holmes.jpg" alt="especialista2">
+    
+                    <div id="curriculo-especialistas">
+                        <h1>Sherlock Holmes</h1><br>
+                        <p>
+                            Especialista em Visão Computacional com grande experiência na área. Utiliza de suas técnicas fundamentadas na lógica para fazer com que máquinas interpretem informações visualmente.  
+                        </p>
+                    </div>  
+    
+                </div>
+
+            </div>     
+        </section>
+
+        <section class="gostou-inscreva">
+            <h1 class="gostou-inscreva-h1">Inscreva-se para o evento</h1>
+            <button class="gostou-inscreva-botao">INSCREVA-SE</button>
+        </section>
+
+    </main>
+    
+    <footer class="descricao-empresa">
+        <h1 class="descricao-empresa-h1">I.A Company</h1>
+        <p>O futuro já começou</p>
+        <address class="descricao-empresa-contato">
+            Email: <a href="http://AI@mail.com">I.A Company</a><br>
+            Phone: +55 (99) 9999-9999 <br>
+            BRA
+        </address>
+    </footer>
+</body>
+</html>

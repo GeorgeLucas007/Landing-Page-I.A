@@ -1,0 +1,26 @@
+.chamadaEvento{
+    height: auto;
+    
+}
+
+.container-form {
+    height: auto;
+    margin-bottom: 2%;
+}
+
+.topicos-aprender{
+    gap: 2%;
+}
+
+#formatacao-div {
+    width: 30%;
+}
+
+#formatacao-texto {
+    font-size: 0.5rem;
+}
+
+.especialista {
+    height: auto;
+}
+

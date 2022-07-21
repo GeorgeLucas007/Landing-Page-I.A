@@ -1,0 +1,50 @@
+.participantes {
+    width: 100%;
+    height: auto;
+}
+
+.participantes-h1{
+    text-align: center;
+    padding-top: 4%;
+    font-family: 'Technology';
+    font-size: 2rem;
+
+}
+
+.especialista {
+    width: 35%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    padding: 5%;
+    
+}
+
+#imagens-especialistas {
+    width: 50%;
+    height: 10rem;
+    border-radius: 50%;
+
+}
+
+#curriculo-especialistas {
+    width: 50%;
+    font-weight: bold;
+    text-align:justify;
+    padding-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conjunto-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.conjunto-2{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+

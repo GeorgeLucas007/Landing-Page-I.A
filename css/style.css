@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Font não aceita letras com acento*/
+@font-face {
+    font-family: "Technology";
+    src: url(/fonts/technology_2/Technology.ttf) format('opentype');
+}

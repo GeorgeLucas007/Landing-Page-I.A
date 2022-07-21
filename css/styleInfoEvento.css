@@ -1,0 +1,36 @@
+.info-evento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 20rem;
+    background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url(/img/3.jpg);
+    background-position:center;
+    background-size:cover;
+}
+
+.container-infoEvento {
+    padding-left: 50%;
+}
+
+.h1-titulo {
+    color: rgb(102, 102, 142);
+    font-family: 'Technology';
+    color: rgb(155, 158, 192);
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem;
+    text-align:center;
+}
+
+.p-apresentacao {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: justify;
+    padding-right: 2%;
+    color: rgb(102, 102, 142);
+}
+
+
+
+

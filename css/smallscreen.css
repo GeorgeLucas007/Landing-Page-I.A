@@ -1,0 +1,73 @@
+.chamadaEvento {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.chamada {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.container-form {
+    width: 100%;
+    background-color: rgba(23, 35, 43, 0);
+}
+
+.topicos-event{
+    height: auto;
+}
+
+.banner-aprender{
+    align-items: center;
+    text-align: center;
+}
+
+.topicos-aprender {
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(238, 242, 244);
+    padding: 1rem 0rem 1rem 0rem;
+    
+}
+
+#formatacao-div{
+    margin-bottom: 1rem;
+    width:70%
+}
+
+.info-evento{
+    height: auto;    
+}
+
+.container-infoEvento{
+    padding: 1rem;
+    text-align: center;
+}
+
+.participantes{
+    height: auto;
+}
+
+.especialista{
+    width: 100%;
+    padding: 15% 0% 15% 0%;
+    height: auto;
+
+}
+
+.conjunto-1, .conjunto-2{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gostou-inscreva-h1{
+    text-align: center;
+}
+
+.gostou-inscreva-botao{
+    font-size: 50%;
+}
